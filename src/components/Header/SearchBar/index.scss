@@ -1,0 +1,70 @@
+.form-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.form-control {
+  padding-left: 2.5rem !important;
+  border: 2px solid rgb(220, 220, 220) !important;
+  border-radius: 0.5rem !important;
+  transition: border-color 0.2s ease-out !important;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.form-control::placeholder {
+  color: rgb(190, 190, 190) !important;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0.5rem;
+  color: rgb(190, 190, 190);
+  transition: color 0.2s ease-out;
+}
+
+.close-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 5rem;
+  color: rgb(190, 190, 190);
+  transition: color 0.2s ease-out;
+  cursor: pointer;
+}
+
+.form-button {
+  background-color: rgb(220, 220, 220) !important;
+  padding: 0 1.4rem 0 1.4rem !important;
+  height: 100% !important;
+  color: #111 !important;
+  border-radius: 0 0.5rem 0.5rem 0 !important;
+  outline: none !important;
+  border: 2px solid rgb(220, 220, 220) !important;
+  border-left: 0 !important;
+  position: absolute;
+  right: 0;
+  transition: color 0.2s ease-out, background-color 0.2s ease-out,
+    border-color 0.2s ease-out !important;
+}
+
+.focused-icon {
+  color: rgb(237 80 47) !important;
+  border-color: rgb(237 80 47) !important;
+}
+
+.focused-button {
+  color: #fff !important;
+  background-color: rgb(237 80 47) !important;
+  border-color: rgb(237 80 47) !important;
+}
+
+.focused-input {
+  border-color: rgb(237 80 47) !important;
+}

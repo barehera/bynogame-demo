@@ -1,0 +1,84 @@
+.search-dropdown {
+  position: absolute;
+  top: 45px;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  border: 2px solid rgb(237 80 47);
+
+  box-shadow: 11px 15px 32px -3px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 11px 15px 32px -3px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 11px 15px 32px -3px rgba(0, 0, 0, 0.12);
+
+  transition: all 0.2s ease-out;
+}
+
+.search-dropdown-header {
+  border-radius: 0.25rem 0.25rem 0 0;
+  background-color: rgb(237 80 47);
+  padding: 1.2rem 0.75rem;
+}
+
+.header-title {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.header-popular-search-container {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.header-popular-search-text {
+  font-size: 12px;
+  background-color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 0.25rem;
+  margin: 0;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.header-popular-search-text:hover {
+  transform: translateY(-0.1rem);
+
+  //   background-color: rgb(237 80 47);
+  //   color: #fff;
+
+  box-shadow: 0px 8px 28px -3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 8px 28px -3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 8px 28px -3px rgba(0, 0, 0, 0.1);
+}
+
+.search-dropdown-body {
+  border-radius: 0.5rem;
+  background-color: #fff;
+  padding: 1.2rem 0.75rem;
+}
+
+.body-title {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.body-popular-products-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.visible {
+  transform: translateY(0);
+  opacity: 100 !important;
+  visibility: visible !important;
+}
+
+.hidden {
+  transform: translateY(-2rem);
+  opacity: 0 !important;
+  visibility: hidden !important;
+}

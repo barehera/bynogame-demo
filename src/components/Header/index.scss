@@ -1,0 +1,11 @@
+.navbar > .container-xxl {
+  justify-content: flex-start !important;
+  align-items: center !important;
+  gap: 3rem;
+}
+
+.navbar-logo {
+  width: 100%;
+  height: 3rem;
+  object-fit: contain;
+}
