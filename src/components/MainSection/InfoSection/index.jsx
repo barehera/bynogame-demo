@@ -1,10 +1,8 @@
-import { Button } from "react-bootstrap";
 import React from "react";
 import { Card } from "react-bootstrap";
 import "./index.scss";
-import { Alert } from "react-bootstrap";
 
-import { FiAlertCircle } from "react-icons/fi";
+import AlertInfo from "./AlertInfo";
 
 const index = () => {
   return (
@@ -28,24 +26,11 @@ const index = () => {
           fiyatlarla Valorant Points almak için ByNoGame web sitesini takip
           edin.
         </Card.Text>
-        <Alert variant={"danger"} className="info-card-alert">
-          <div>
-            <FiAlertCircle className="info-card-alert-icon" />
-          </div>
-          <p>Bu ürünler sadece Türkiye sunucularında geçerlidir.</p>
-        </Alert>
-        <Alert variant={"danger"} className="info-card-alert">
-          <div>
-            <FiAlertCircle className="info-card-alert-icon" />
-          </div>
-          <p>
-            Herhangi bir epin, alındıktan sonra bir başkasıyla değiştirilemez
-            veya iade edilemez.
-          </p>
-        </Alert>
-        {/* <Button className="info-card-button">
-          Sıkça Sorulan Sorular (SSS)
-        </Button> */}
+        <AlertInfo text="Bu ürünler sadece Türkiye sunucularında geçerlidir." />
+        <AlertInfo
+          text="Herhangi bir epin,
+        alındıktan sonra bir başkasıyla değiştirilemez veya iade edilemez."
+        />
       </Card.Body>
     </Card>
   );

@@ -28,12 +28,18 @@ const Index = ({ product }) => {
 
   return (
     <div className="product-card">
+      {/* -------------- IMAGE SECTION -------------- */}
       <img src={image} alt={title} className="product-card-image" />
+      {/* -------------- IMAGE SECTION -------------- */}
+
+      {/* -------------- TITLE AND DESCRIPTION SECTION -------------- */}
       <div className="product-card-body">
         <h4>{title}</h4>
-
         <p>{description}</p>
       </div>
+      {/* -------------- TITLE AND DESCRIPTION SECTION -------------- */}
+
+      {/* -------------- PRICE SECTION -------------- */}
       <div className="product-card-price-section">
         <div>
           <del>{beforeDiscountPrice} &#8378;</del>
@@ -45,7 +51,9 @@ const Index = ({ product }) => {
         <p>{afterDiscountPrice} &#8378;</p>
         <small>{pricePerHundredVp} &#8378; / 100 VP</small>
       </div>
+      {/* -------------- PRICE SECTION -------------- */}
 
+      {/* -------------- QUANTITY SECTION -------------- */}
       <div className="quantity-section">
         <button onClick={handleQuantityDecrease}>-</button>
         <input
@@ -60,10 +68,13 @@ const Index = ({ product }) => {
         />
         <button onClick={handleQuantityIncrease}>+</button>
       </div>
+      {/* -------------- QUANTITY SECTION -------------- */}
 
+      {/* -------------- BUTTON SECTION -------------- */}
       <button className="product-card-button">
         <BsFillCartPlusFill className="product-card-icon" />
       </button>
+      {/* -------------- BUTTON SECTION -------------- */}
     </div>
   );
 };

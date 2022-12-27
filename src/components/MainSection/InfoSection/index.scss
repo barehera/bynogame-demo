@@ -13,15 +13,6 @@
   text-align: center;
   font-weight: 300;
 }
-.info-card-alert {
-  font-size: 12px !important;
-  font-weight: 300;
-  display: flex;
-  align-items: center;
-  padding: 0 !important;
-  color: #fff !important;
-  background-color: rgb(237, 80, 47) !important;
-}
 
 .info-card-alert div {
   flex: 1;
@@ -33,9 +24,6 @@
 .info-card-alert p {
   padding: 0.4rem 0.8rem 0.4rem 0.4rem !important;
   margin: 0;
-}
-.info-card-alert-icon {
-  font-size: 24px;
 }
 
 .info-card-button {

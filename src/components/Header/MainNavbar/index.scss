@@ -1,0 +1,20 @@
+.navbar-container {
+  display: block !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 3rem;
+}
+
+.brand-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 3rem;
+}
+
+.navbar-logo {
+  width: 100%;
+  height: 3rem;
+  object-fit: contain;
+}

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./index.scss";
 import { BiUserCircle } from "react-icons/bi";
 
-import userImage from "../../../../assets/image/user.webp";
+import userImage from "../../../../../assets/image/user.webp";
 
 const Index = ({ user, setUser }) => {
   const handleClick = () => {

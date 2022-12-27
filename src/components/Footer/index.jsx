@@ -17,7 +17,7 @@ const index = () => {
     <>
       <footer className="mt-5">
         <Container fluid="xxl">
-          <Row>
+          <Row xs={2} sm={3} lg={5}>
             <Col className="footer-col">
               <img
                 src="https://cdn.bynogame.com/UX-new/bynogame-footer-logo/png/bynogame-footer-logo.png"
