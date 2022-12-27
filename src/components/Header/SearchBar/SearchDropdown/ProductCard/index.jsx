@@ -8,19 +8,17 @@ const index = ({ product }) => {
 
   return (
     <div className="product-card">
-      <img src={image} alt={title} className="product-card-image" />
+      <img src={image} alt={title} className="product-card-image-search" />
       <div className="product-card-body">
         <h4>{title}</h4>
         <div>
           {beforeDiscountPrice ? <del>{beforeDiscountPrice}</del> : null}
-          <p>
-            {price} {currency}
-          </p>
+          <p className="product-card-body-price">{price} &#8378;</p>
         </div>
       </div>
-      <button className="product-card-button">
+      {/* <button className="product-card-button">
         <BsFillCartPlusFill className="product-card-icon" />
-      </button>
+      </button> */}
     </div>
   );
 };

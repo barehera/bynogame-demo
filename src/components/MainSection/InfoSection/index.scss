@@ -1,0 +1,61 @@
+.info-section-card {
+  width: 100% !important;
+}
+
+.info-section-title {
+  font-size: 24px !important;
+  text-align: center;
+  margin-bottom: 16px !important;
+}
+
+.info-section-text {
+  font-size: 15px !important;
+  text-align: center;
+  font-weight: 300;
+}
+.info-card-alert {
+  font-size: 12px !important;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+  color: #fff !important;
+  background-color: rgb(237, 80, 47) !important;
+}
+
+.info-card-alert div {
+  flex: 1;
+  width: 100%;
+  padding: 0.4rem !important;
+  border-right: 1px solid #fff;
+}
+
+.info-card-alert p {
+  padding: 0.4rem 0.8rem 0.4rem 0.4rem !important;
+  margin: 0;
+}
+.info-card-alert-icon {
+  font-size: 24px;
+}
+
+.info-card-button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.3rem !important;
+  border: none !important;
+  width: 100% !important;
+  background-color: #fff !important;
+  color: #111 !important;
+  border: 2px solid rgb(220 220 220) !important;
+  font-size: 12px !important;
+  transition: all 0.2s ease-out !important;
+}
+
+.info-card-button:hover {
+  transform: translateY(-0.1rem);
+
+  box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}

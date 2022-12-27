@@ -7,9 +7,10 @@
 
 .form-control {
   padding-left: 2.5rem !important;
+  padding-right: 7rem !important;
   border: 2px solid rgb(220, 220, 220) !important;
   border-radius: 0.5rem !important;
-  transition: border-color 0.2s ease-out !important;
+  transition: all 0.2s ease-out !important;
 }
 
 .form-control:focus {
@@ -30,11 +31,11 @@
 }
 
 .close-icon {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   position: absolute;
   right: 5rem;
-  color: rgb(190, 190, 190);
+  color: rgb(150, 150, 150);
   transition: color 0.2s ease-out;
   cursor: pointer;
 }
@@ -67,4 +68,6 @@
 
 .focused-input {
   border-color: rgb(237 80 47) !important;
+  border-radius: 0.5rem 0.5rem 0 0 !important;
+  border-bottom: 2px solid rgb(220, 220, 220) !important;
 }

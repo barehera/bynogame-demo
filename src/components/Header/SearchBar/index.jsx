@@ -34,7 +34,7 @@ const Index = () => {
         {isFocused ? (
           <AiOutlineClose
             onClick={handleCloseDropdown}
-            className={`${isFocused && "focused-icon"} close-icon`}
+            className={` close-icon`}
           />
         ) : null}
         <Button className={`${isFocused && "focused-button"} form-button`}>

@@ -21,7 +21,6 @@ const Index = ({ isFocused, setIsFocused }) => {
       title: "Knight Online Felis Gold Bar 100M (Yeni)",
 
       price: 599.99,
-      currency: "TL",
     },
     {
       id: "986",
@@ -30,7 +29,6 @@ const Index = ({ isFocused, setIsFocused }) => {
       title: "Knight Online Pandora Gold Bar 100M (Yeni)",
 
       price: 569.99,
-      currency: "TL",
     },
     {
       id: "985",
@@ -38,7 +36,6 @@ const Index = ({ isFocused, setIsFocused }) => {
       title: "Knight Online 400 Cash",
 
       price: 87.5,
-      currency: "TL",
     },
     {
       id: "984",
@@ -47,7 +44,6 @@ const Index = ({ isFocused, setIsFocused }) => {
       title: "Knight Online 400 Cash",
 
       price: 579.99,
-      currency: "TL",
     },
   ];
 
