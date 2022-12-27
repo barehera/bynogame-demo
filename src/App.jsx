@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className="main-container">
         <Container fluid={"xxl"} className="mt-4">
           <BreadCrumbSection />
           <MainSection />

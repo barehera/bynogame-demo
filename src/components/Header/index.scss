@@ -19,14 +19,14 @@
   overflow-x: auto !important;
 }
 
-.col {
-  transition: all 0.2s ease-out;
+.header-col {
+  transition: all 0.2s ease-out !important;
   padding: 0.3rem 0 !important;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 14px !important;
+  font-weight: 600 !important;
 }
 
-.col:hover {
+.header-col:hover {
   background-color: rgb(240 240 240) !important;
 }
 

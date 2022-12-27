@@ -34,34 +34,34 @@ const index = () => {
             xxl={10}
             className="header-row"
           >
-            <Col>
+            <Col className="header-col">
               <Nav.Link href="#home">Oyunlar</Nav.Link>
             </Col>
-            <Col>
+            <Col className="header-col">
               <Nav.Link href="#home">Knight Online</Nav.Link>
             </Col>
-            <Col>
+            <Col className="header-col">
               <Nav.Link href="#home">Skin</Nav.Link>
             </Col>
-            <Col>
+            <Col className="header-col">
               <Nav.Link href="#home">Valorant VP</Nav.Link>
             </Col>
-            <Col>
+            <Col className="header-col">
               <Nav.Link href="#home">Razer Al-Sat</Nav.Link>
             </Col>
-            <Col>
+            <Col className="header-col">
               <Nav.Link href="#home">PUBG UC</Nav.Link>
             </Col>
-            <Col>
+            <Col className="header-col">
               <Nav.Link href="#home">Steam</Nav.Link>
             </Col>
-            <Col>
+            <Col className="header-col">
               <Nav.Link href="#home">Pazar</Nav.Link>
             </Col>
-            <Col>
+            <Col className="header-col">
               <Nav.Link href="#home">Destekle</Nav.Link>
             </Col>
-            <Col>
+            <Col className="header-col">
               <Nav.Link href="#home">Ödeme</Nav.Link>
             </Col>
           </Row>
