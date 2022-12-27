@@ -1,4 +1,5 @@
-.navbar > .container-xxl {
+.navbar-container {
+  display: block !important;
   justify-content: center !important;
   align-items: center !important;
   gap: 3rem;
@@ -47,4 +48,19 @@
 
 .links-navbar {
   padding: 0 !important;
+}
+
+.brand-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .links-navbar {
+    display: none !important;
+  }
 }

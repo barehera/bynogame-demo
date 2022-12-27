@@ -10,17 +10,23 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Col, Row } from "react-bootstrap";
+import useWindowSize from "../../hooks/useWindowSize";
 
-const index = () => {
+const Index = () => {
+  const { width } = useWindowSize();
+
   return (
     <header>
       <Navbar bg="#fff" expand="lg">
-        <Container fluid="xxl">
-          <Navbar.Brand href="#home">
-            <img src={logo} alt="Logo" className="navbar-logo" />
-          </Navbar.Brand>
-          <SearchBar />
-          <UserInfoSection />
+        <Container fluid="xxl" className="navbar-container">
+          <div className="brand-section">
+            <Navbar.Brand href="#home">
+              <img src={logo} alt="Logo" className="navbar-logo" />
+            </Navbar.Brand>
+            {width >= 768 && <SearchBar />}
+            <UserInfoSection />
+          </div>
+          {width < 768 && <SearchBar />}
         </Container>
       </Navbar>
       <Navbar className="links-navbar">
@@ -71,4 +77,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

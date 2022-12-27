@@ -30,9 +30,8 @@ const Index = ({ product }) => {
     <div className="product-card">
       <img src={image} alt={title} className="product-card-image" />
       <div className="product-card-body">
-        <div>
-          <h4>{title}</h4>
-        </div>
+        <h4>{title}</h4>
+
         <p>{description}</p>
       </div>
       <div className="product-card-price-section">

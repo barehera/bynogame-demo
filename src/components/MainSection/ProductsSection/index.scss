@@ -3,3 +3,16 @@
   flex-direction: column;
   gap: 1rem;
 }
+
+@media (max-width: 767.98px) {
+  .products-section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 575.98px) {
+  .products-section {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

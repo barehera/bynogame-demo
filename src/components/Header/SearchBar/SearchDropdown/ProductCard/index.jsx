@@ -10,7 +10,7 @@ const index = ({ product }) => {
     <div className="product-card">
       <img src={image} alt={title} className="product-card-image-search" />
       <div className="product-card-body">
-        <h4>{title}</h4>
+        <h4 className="product-card-title-search">{title}</h4>
         <div>
           {beforeDiscountPrice ? <del>{beforeDiscountPrice}</del> : null}
           <p className="product-card-body-price">{price} &#8378;</p>

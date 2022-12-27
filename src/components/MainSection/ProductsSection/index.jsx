@@ -14,7 +14,7 @@ const index = () => {
       discount: 18.47,
       beforeDiscountPrice: 130,
       afterDiscountPrice: 105.99,
-      pricePerHundredVp: null,
+      pricePerHundredVp: 7.31,
     },
     {
       id: "99998",

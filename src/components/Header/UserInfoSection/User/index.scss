@@ -47,3 +47,14 @@
   font-size: 11px;
   font-weight: 300;
 }
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .user-card {
+    padding: 0.2rem 0.2rem;
+  }
+
+  .user-card div {
+    display: none;
+  }
+}

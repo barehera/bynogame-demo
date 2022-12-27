@@ -35,8 +35,9 @@
   gap: 0.2rem;
 }
 
-.product-card-body h4 {
-  font-size: 14px;
+.product-card-title-search {
+  font-size: 16px !important;
+  white-space: break-spaces;
   margin: 0;
 }
 
@@ -63,5 +64,18 @@
 .product-card-button:hover {
   .product-card-icon {
     transform: scale(0.8);
+  }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .product-card-title-search {
+    font-size: 12px !important;
+  }
+
+  .product-card-body-price {
+    font-size: 18px !important;
+    font-weight: 800 !important;
+    margin: 0 !important;
   }
 }
