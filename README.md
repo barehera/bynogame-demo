@@ -1,3 +1,5 @@
-Bynogame Front-End Task
+#Bynogame Front-End Task
 
-https://www.bynogame.com/tr/oyunlar/riot-games/valorant-vp
+İstenilen sayfa -> https://www.bynogame.com/tr/oyunlar/riot-games/valorant-vp
+
+Live Preview -> https://bynogame-demo.vercel.app/
