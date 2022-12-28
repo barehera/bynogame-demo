@@ -8,6 +8,11 @@
   background-color: rgb(237, 80, 47) !important;
 }
 
+.info-card-alert div {
+  max-width: max-content;
+}
+
 .info-card-alert-icon {
-  font-size: 24px;
+  width: 24px;
+  height: 24px;
 }

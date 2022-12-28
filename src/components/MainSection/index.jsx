@@ -9,10 +9,13 @@ import useWindowSize from "../../hooks/useWindowSize";
 
 const Index = () => {
   const { width } = useWindowSize();
+
+  let showInfoSection = width >= 991.98 || width <= 475.98;
+
   return (
     <Row className="mt-4 main-row">
       <Col lg={3} xl={3} xxl={3}>
-        {width >= 991.98 && <InfoSection />}
+        {showInfoSection && <InfoSection />}
       </Col>
       <Col lg={9} xl={9} xxl={9}>
         <ProductsSection />

@@ -163,18 +163,46 @@
     width: 100%;
     height: 200px;
     object-fit: cover;
-    object-position: bottom;
+    object-position: center;
     border-radius: 0.4rem 0.4rem 0 0;
   }
 
+  .product-card-body {
+    padding: 0 0.4rem;
+  }
+
   .product-card-body h4 {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
+    white-space: normal;
+  }
+
+  .product-card-body p {
+    font-size: 10px;
   }
 
   .product-card-button {
     width: 100%;
     min-height: 50px;
     border-radius: 0 0 0.5rem 0.5rem;
+  }
+
+  .product-card-price-section {
+    line-height: 18px;
+  }
+  .product-card-price-section div {
+    justify-content: center;
+  }
+
+  .product-card-price-section del {
+    font-size: 14px;
+  }
+
+  .product-card-price-section p {
+    font-size: 24px;
+  }
+
+  .product-card-price-section small {
+    font-size: 12px;
   }
 }

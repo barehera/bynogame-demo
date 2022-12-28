@@ -47,3 +47,9 @@
   -webkit-box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 575.98px) {
+  .info-section-card {
+    margin-bottom: 2.5rem !important;
+  }
+}
